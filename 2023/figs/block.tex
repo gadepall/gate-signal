@@ -1,0 +1,31 @@
+\tikzset{
+    block/.style = {draw, fill=white, rectangle, minimum height=1cm, minimum width=1cm},
+    plus/.style= {draw, fill=white, circle, node distance=1cm, append after command={\pgfextra \draw ($(\tikzlastnode.center) + (-0.15,0)$) -- ($(\tikzlastnode.center) + (0.15,0)$) node[above] {$+$}; \endpgfextra}},
+    input/.style = {coordinate},
+    output/.style = {coordinate}
+}
+
+
+\begin{tikzpicture}[node distance=2cm,>=latex]
+    \node [input] (input) at (0,0){};
+    \node [block] (block1) at (2,-2){$2$};
+    \node [block] (block2) at (6,-2){$3$};
+    \node [plus] (sum1) at (2,-4) {};
+    \node [plus] (sum2) at (6,-4){};
+    \node [block] (block3) at (4,-4) {$\frac{1}{s}$};
+    \node [output] (output) at (8,-4){};
+    \node [block] (block4) at (4,-6){1};
+    
+    \draw (input) -- node[above]{$R\brak{s}$} (2,0) to (6,0);
+    \draw [->] (6,0) -- (block2);
+    \draw [->] (2,0) -- (block1);
+    \draw [->] (block1) -- (sum1);
+    \draw [->] (sum1) -- (block3);
+    \draw [->] (block3) -- (sum2);
+    \draw [->] (sum2) -- node[above]{$Y\brak{s}$}(output);
+    \draw [->] (block2) -- (sum2);
+    \draw (7,-4) to (7,-6);
+    \draw [->] (7,-6) -- (block4);
+    \draw (block4) to (2,-6);
+    \draw [->] (2,-6) to (sum1);  
+\end{tikzpicture}
