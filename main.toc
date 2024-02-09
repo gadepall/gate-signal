@@ -5,5 +5,6 @@
 \contentsline {chapter}{\numberline {3} Z-transform}{5}{chapter.3}%
 \contentsline {chapter}{\numberline {4}Systems}{7}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Sequences}{13}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Contour Integration}{15}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Laplace Transform}{17}{chapter.7}%
+\contentsline {chapter}{\numberline {6}Sampling}{15}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Contour Integration}{19}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Laplace Transform}{21}{chapter.8}%
