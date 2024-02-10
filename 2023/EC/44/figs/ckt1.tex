@@ -1,0 +1,10 @@
+\begin{circuitikz}[american]
+   \draw (0,0) to [isource, l=1A] (0,4) ;
+   \draw (0,0) to [short] (3,0) to [C = 0.01F] (3,4) to [short] (6,4) to [R = 100 $\Omega$] (6,2) to [L = 1H] (6,0) to [short] (9,0) to [R = 25 $\Omega$] (9,4) to [short] (6,4) ;
+   \draw (3,0) to [short] (6,0) ;
+   \draw (0,4) to [ospst = $S_1$] ++(3,0); 
+   \draw (7.5,4) to [cspst = $S_2$] ++(0,-2);
+   \draw (7.5,2) to [short] (6,2) ;
+   \draw (3,4) to [short ,i = $i_c$] (3,3);
+   
+\end{circuitikz}
