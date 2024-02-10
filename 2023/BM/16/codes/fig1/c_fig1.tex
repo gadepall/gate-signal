@@ -1,0 +1,13 @@
+\documentclass{standalone}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+
+\begin{document}
+\begin{circuitikz}
+    \draw (0,0) to[R, l=\SI{1}{k\ohm}, o-*] (4,0);
+    \draw (4,0) to[C, l=\SI{100}{\micro\farad}] (4,-2);
+    \draw (0,0) to[sV, v=$100\cos(\omega_0 t) \text{ V}$, american] (0,-2);
+    \draw (0,-2)--(4,-2);
+\end{circuitikz}
+\end{document}
+
