@@ -1,0 +1,11 @@
+\begin{circuitikz}
+    \draw(0, 0) to[short,*-*] ++ (4,0);
+\draw (0,2) to[C,l=$0.1\mu F$, *-*] ++ (3,0) coordinate(a);
+\draw (a) to[short,-*] ++ (1,0);
+\draw (a) to[R, l_=$0.5k\Omega$,*-] ++(0,-2);
+
+% Voltage labels
+\draw (0,2) to[open,l_=V$_{in}$] ++(0,-2);
+\draw (4,2) to[open,l=V$_{out}$] ++(0,-2);
+\end{circuitikz}
+
