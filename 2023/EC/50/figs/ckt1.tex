@@ -1,0 +1,22 @@
+\begin{circuitikz}
+     \draw (0,0) node[left] {$x_1(t)$} to (0.8,0);
+     \draw (0,-1) node[left] {$x_2(t)$} to (0.8,-1);
+     \draw (1,0) circle(0.2);
+     \draw (1,0) node {$\times$};
+     \draw (1,-1) circle(0.2);
+     \draw (1,-1) node {$\times$};
+    \draw (1.2,0) to (1.8,0);
+    \draw (1.2,-1) to (1.8,-1);
+    \draw (1.8,0) to (1.8,-0.3);
+    \draw (1.8,-1) to (1.8,-0.7);
+    \draw (1.8,-0.5) circle(0.2);
+    \draw (1.8,-0.5) node {$+$};
+    \draw[->] (1,0.5) to (1,0.2) ;
+    \node at (1,0.6) {\tiny{cos$(4\pi\times10^3t)$}};
+    \draw[->] (1,-1.5) to (1,-1.2);
+    \node at (1,-1.6) {\tiny{cos$(12\pi\times10^3t)$}};
+    \draw (2,-0.5) to (2.3,-0.5);
+    \node at (2.6,-0.5) {y(t)};
+     
+     
+\end{circuitikz}
