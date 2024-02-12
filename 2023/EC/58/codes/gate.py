@@ -13,7 +13,7 @@ index_2 = np.abs(t_values - 2).argmin()
 
 x2_values[index_minus_3] = 1
 x2_values[index_2] = 2
-\
+
 plt.plot(t_values, x2_values, label='x2(t)', color='black')
 
 
