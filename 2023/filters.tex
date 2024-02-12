@@ -24,4 +24,24 @@ A finite impulse response (FIR) filter has only two non-zero samples in its impu
 	\item[(D)] $2\abs{\sin(\frac{\omega}{2})}$
 \end{enumerate}
 \hfill(GATE BM 2023 Question 17) \\
+\item
+For the circuit shown,if $i=\sin 1000t$, the instantaneous value of the Thevenin's voltage(in volts) across the terminals a anb b at time t=5ms is\\[2pt]
+
+\begin{circuitikz}[american voltages,american currents]
+    % Draw the circuit components
+    \draw (0,0) -- (2,0);
+    \draw (2,2) to [resistor,l=$10\Omega$] (2,4);
+    \draw (2,4) -- (0,4);
+    \draw (2,0) to [capacitor,l=$-j10\Omega$,-,i_=$i_x$] (2,2);
+    \draw (2,0) -- (5,0);
+    \draw (5,0) to[inductor,l=$j10\Omega$] (5,2);
+    \draw (5,2) to [resistor,l=$10\Omega$] (5,4);
+  \draw (5,4) to [cV,l^=$4i_x$,invert] (2,4);
+  \draw (5,4) -- (6,4);
+  \draw (6,4) to[I,l=$\sin 1000t$,invert] (6,0);
+  \draw (6,0) -- (5,0);
+   \node[circle,fill=black,inner sep=1.5pt,label=above:a] at (0,0) {};
+    \node[circle,fill=black,inner sep=1.5pt,label=above:b] at (0,4) {};
+    \end{circuitikz}
+    \hfill(GATE EE 2023 Question 51) \\
 \end{enumerate}
