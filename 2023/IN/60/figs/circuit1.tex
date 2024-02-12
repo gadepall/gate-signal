@@ -1,0 +1,21 @@
+\begin{circuitikz}[american]
+    \draw (0,0) node[op amp] (opamp) {};
+    \draw (opamp.+) to [short] ++(-1,0) coordinate (leftLine) -- ++(0,-1) node[ground] {};
+    \draw (opamp.-) to [short] ++(-1,0) to [short] ++(0,2) to [C, l_={$-$\hspace{1pt}$10nF$\hspace{1pt}$+$}] ++(2,0) to [short] ++(2,0) to [short] ++(0,-2.5);
+    \draw (opamp.out) to [short] ++(1.5,0) node[right] {$V_o$};
+    \draw (opamp.-) to [short] ++(-2.3,0);
+    \draw[thick] ($(opamp.-) + (-2.7,0)$) -- ++(-2.3,0) node[left] (Vin) {$V_{in}$};
+    \draw[dotted] ($(Vin.west) + (-1,-0.15)$) -- ($(Vin.west) + (-1,-0.85)$);
+    \draw[thick] ($(Vin.west) + (-1,-0.4)$) ++(0,0.15) -- ++(0.5,0) -- ++(0,-0.5)-- ++(0.5,0)  -- ++(0,0.5) -- ++(0.5,0) -- ++(0,-0.5) -- ++(0.5,0) -- ++(0,0.5)  -- ++(0.5,0) -- ++(0,-0.5) -- ++(0.5,0);
+    \node[font=\scriptsize] at ($(Vin.west) + (-1.5,-0.15)$) {High};
+    \node[font=\scriptsize] at ($(Vin.west) + (-1.5,-0.65)$) {Low};
+    \node[font=\scriptsize] at ($(Vin.west) + (-1,-0.85)$) {$t=0$};
+    \draw[dotted] ($(Vin.west) + (3.1,0)$) -- ++(0.2,-0.3);
+    \draw[dotted] ($(Vin.west) + (3.5,0)$) -- ++(-0.2,-0.3);
+    \node[font=\scriptsize] at ($(Vin.west) + (3.3,0) + (0,0.5)$) {S};
+    \draw[thick] ($(Vin.west) + (3.3,-0.3)$) -- ++(0,-1) to [C, l=$1nF$] ++(0,-1) node[ground] {};
+    \node[font=\scriptsize] at ($(Vin.west) + (3.1,0.15)$) {1};
+    \node[font=\scriptsize] at ($(Vin.west) + (3.5,0.15)$) {2};
+\end{circuitikz}
+
+
