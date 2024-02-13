@@ -56,7 +56,7 @@
 \textbf{Question: }
 For the circuit given below, choose the angular frequency $ \omega_0$ at which voltage across capacitor has maximum amplitude?
 \begin{figure}[h!]
-    \includegraphics[width = \columnwidth]{figs/c_fig1.pdf}
+    \includegraphics[width = \columnwidth]{2023/BM/16/figs/c_fig1.pdf}
     \caption{circuit }
     \centering
     \label{fig: bm_16_fig_1}
@@ -67,4 +67,42 @@ For the circuit given below, choose the angular frequency $ \omega_0$ at which v
     \item[(C)] 1\\
     \item[(D)] 0   
 \end{enumerate}
-\hfill(GATE BM 2023)\\
+\hfill(GATE BM 2023 question 16)\\
+\textbf{Solution}:\\
+\fi
+\begin{table}[h!] 
+\centering
+\input{2023/BM/16/tables/table1}
+\caption{input values}
+\label{tab: table-bm16}
+\end{table}
+
+\begin{align}
+V_c\brak{s}&= \frac{V_1\brak{s}\frac{1}{sC}}{R+\frac{1}{sC}}\\
+\implies H\brak{s} &= \frac{1}{1+ sRC}\\
+\implies H\brak{j\omega} &= \frac{1}{1+j\omega RC}\\
+|H\brak{j\omega}| &= \frac{1}{\sqrt{1+\brak{\omega RC}^2}}
+\end{align}
+\begin{figure}[h!]
+    \includegraphics[width = \columnwidth]{2023/BM/16/figs/Figure_1.png}
+    \caption{$ |H\brak{j\omega}|$ }
+    \centering
+    \label{fig: bm_16_fig_2}
+\end{figure}
+
+
+\begin{figure}[h!]
+    \includegraphics[width = \columnwidth]{2023/BM/16/figs/c_fig2.pdf}
+    \caption{circuit in $ \omega$-domain }
+    \centering
+    \label{fig: bm_16_fig_3}
+\end{figure}
+
+\begin{align}
+v_c\brak{t}&= \frac{100}{\sqrt{1+\brak{\omega_o RC}^2}}\brak{\cos{\omega_o t + \arctan\brak{\frac{1}{\omega_o RC}}}}
+\end{align}
+Maximum amplitude of $ v_c\brak{t}$ occurs at $ \omega_o=0$
+\begin{align}
+\therefore \omega_o =0
+\end{align}
+$ \therefore$ maximum value of $ v_c\brak{t}$ at steady state is $ 100$ Volts.
