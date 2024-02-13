@@ -1,0 +1,22 @@
+\begin{tikzpicture}
+\begin{axis}[xmin=-3, xmax=7, ymin=-3, ymax=3, axis lines=middle, title={y(t)}]
+ \addplot[blue] coordinates {(-3,0) (1,0)};
+  \addplot[blue] coordinates {(1,0) (1,-2)};
+   \addplot[dashed] coordinates {(0,-2) (1,-2)};
+  \addplot[blue, domain=1:5] {x - 3};
+  \addplot[blue] coordinates {(5,2) (5,0)};
+  \addplot[blue] coordinates {(5,0) (7,0)};
+  \addplot[dashed] coordinates {(0,2) (5,2)};
+    \end{axis}
+\end{tikzpicture}
+
+
+\begin{tikzpicture}
+    \begin{axis}[xmin=-3, xmax=3, ymin=-3, ymax=3, axis lines=middle, title={x(t)}]
+        \addplot[blue] coordinates {(-3,0) (-1,0)};
+        \addplot[blue] coordinates {(-1,0) (-1,1)};
+        \addplot[blue] coordinates {(-1,1) (1,1)};
+        \addplot[blue] coordinates {(1,1) (1,0)};
+        \addplot[blue] coordinates {(1,0) (3,0)};
+    \end{axis}
+\end{tikzpicture}
