@@ -53,4 +53,20 @@ For the circuit shown,if $i=\sin 1000t$, the instantaneous value of the Thevenin
     \node[circle,fill=black,inner sep=1.5pt,label=above:b] at (0,4) {};
     \end{circuitikz}
     \hfill(GATE EE 2023 Question 51) \\
+    \pagebreak
+
+    \item In the circuit shown ,$\omega=100\pi\text{rads/s}$, R1=R2=$2.2\Omega$ and L=$7\text{mH}$. the capacitance $\text{C}$ for which $Y_{in}$ is purely real is  $\text{mF}$ \\
+	\begin{center}
+	\begin{circuitikz} \centering \draw 
+		(0,4) to[sinusoidal voltage source, l=$V_{0}$cos($\omega$t)] (0,0)
+		(0,4) to[short] (4,4)
+		(4,4) to[resistor, l=$R_1$ ] (4,2)
+		(4,2) to[inductor, l= $\text{L} $] (4,0) to[short ] (0,0)
+		(8,4)  to[short] (4,4)
+		(8,4) to[resistor, l= $R_2$] (8,2) to[capacitor,l=$\text{C}$] (8,0) to (4,0);
+	\end{circuitikz}
+	\end{center}
+\hfill(GATE IN 2023 Q46)\\
+\solution
+\pagebreak
 \end{enumerate}
