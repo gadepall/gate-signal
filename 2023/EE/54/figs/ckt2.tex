@@ -1,0 +1,8 @@
+    \begin{circuitikz}[american]
+        \draw (0,7) to [R=10$\Omega$] (0,2) to [short] (3,2) to [isource, l=$1\angle{0^\circ}$] (3,7) to [short] (0,7);
+        \draw (3,7) to [short, i=$I_1$] (7,7);
+        \draw (3,2) to [short] (7,2);
+        \draw (7,7) -- ++(0,-1.5)
+        to [open, v=$V_1$, o-o] ++(0,-1.5) -- ++(0,-2);
+\end{circuitikz}
+
