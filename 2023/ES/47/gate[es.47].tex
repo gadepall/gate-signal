@@ -1,0 +1,98 @@
+ \iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{xparse}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{GATE-ES.47}
+\author{EE23BTECH11046 - Poluri Hemanth$^{*}$}
+\maketitle
+\textbf{Question:}Second order ordinary differential equation $\frac{d^2y}{dx^2}-\frac{dy}{dx}-2y=0$ has values 
+$y=2$ and$\frac{dy}{dx}=1$ at $x=0$.The value of $y$ at $x=1$ is?($round\; off\;\: to\;\: three\;\: decimal\;\: places$)
+ \\ \hfill[GATE-ES 2023]\\
+\textbf{Solution:}\\
+\fi
+We convert given second order differential equation to s domain using Laplace transform and solve for $Y(s)$ and take inversion to get $y(x)$.
+\begin{table}[h!]
+    % Change address in github
+	\input{2023/ES/47/tables/table2.tex}
+        \caption{Parameters}
+        \label{tab:es.47}
+\end{table}
+
+
+\begin{align}
+    \frac{d^2y}{dx^2}-\frac{dy}{dx}-2y&\Large\xleftrightarrow{\mathcal{L}}s^2Y(s)-sy(0)-y'(0)-sY(s)+y(0)-2Y(s)\\
+	Y(s)\left(s^2-s-2\right)&=2s-1\\
+    \Rightarrow Y(s)&=\frac{2s-1}{s^2-s-2}\\
+    \Rightarrow Y(s)&=\frac{1}{s-2}+\frac{1}{s+1}
+\end{align}
+For inversion of $Y(s)$ in partial fractions-
+\begin{align}
+	&\frac{b}{s+a}\Large\xleftrightarrow{\mathcal{L}^{-1}}be^{-ax}u(x)\label{inv}
+\end{align}
+Where b, a are real numbers, we invert $Y(s)$ to get $y(x)$:-\\
+From \eqref{inv}
+\begin{align}
+	&Y(s)\Large\xleftrightarrow{\mathcal{L}^{-1}} y(x)u(x)
+\end{align}
+\begin{align}
+	y(x)&=\left(e^{2x}+e^{-x}\right)u(x)\\
+   \Rightarrow y(1)&=7.757
+\end{align}\\
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\linewidth]{2023/ES/47/figures/gate.png}
+	\caption{Plot of y(x)}
+    \label{fig:enter-label}
+\end{figure}
+
+
+
+
+
+
+%\end{document}
