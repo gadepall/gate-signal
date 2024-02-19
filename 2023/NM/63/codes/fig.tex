@@ -1,0 +1,34 @@
+\documentclass[tikz, border=2mm]{standalone}
+\usetikzlibrary{shapes, arrows.meta}
+
+\begin{document}
+
+\begin{tikzpicture}[>=Stealth, thick]
+
+    \draw (5,-2) -- (0,-2);
+    \draw (0,-2) -- (0,1.5);
+    \draw (5,-2) -- (5,1.5);
+
+    \fill[blue!30] (0,1) rectangle (5,-2);
+
+    \draw (2,2) -- (3,2);
+
+    \draw (1.5,-0.5) rectangle (3.5,0.5) node[midway] {Buoy};
+
+    \draw (2.5,0.5) -- (2.8,0.8);
+    \draw (2.8,0.8) -- (2.5,1.1);
+    \draw (2.5,1.1) -- (2.8,1.4);
+    \draw (2.8,1.4) -- (2.5,1.7);
+    \draw (2.5,1.7) -- (2.5,2);
+
+    \foreach \i in {1,...,10}
+        \draw ({2 + 0.1*\i},2) -- ({2 + 0.1*\i},2.2);
+
+    \draw[->] (2.5,-0.5) -- (2.5,-1.5) node[below] {$F = mg$};
+
+    \draw[->] (1.6,0.0) -- (1.6,1.3) node[left] {$F = kx$};
+    \draw[->] (3.3,0.0) -- (3.3,1.3) node[right] {$F = b\frac{dx}{dt}$};
+\end{tikzpicture}
+
+\end{document}
+

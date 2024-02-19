@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.2)  11 FEB 2024 11:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.2)  17 FEB 2024 16:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1265,30 +1265,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--62
 
  []
 
+(./tables/table1.tex
+Overfull \hbox (18.90526pt too wide) in paragraph at lines 1--23
+ [][] 
+ []
+
+)
+<figs/fig.pdf, id=7, 154.445pt x 132.8995pt>
+File: figs/fig.pdf Graphic file (type pdf)
+<use figs/fig.pdf>
+Package pdftex.def Info: figs/fig.pdf  used on input line 72.
+(pdftex.def)             Requested size: 252.0pt x 216.85341pt.
+<figs/Figure_1.png, id=10, 461.8053pt x 346.1733pt>
+File: figs/Figure_1.png Graphic file (type png)
+<use figs/Figure_1.png>
+Package pdftex.def Info: figs/Figure_1.png  used on input line 113.
+(pdftex.def)             Requested size: 252.0pt x 188.90103pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
+ <./figs/fig.pdf>]
+[2
 
-] (./asnmt4.aux)
+ <./figs/Figure_1.png>] (./asnmt4.aux)
 Package rerunfilecheck Info: File `asnmt4.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29480 strings out of 478287
- 581509 string characters out of 5849290
- 825701 words of memory out of 5000000
- 47052 multiletter control sequences out of 15000+600000
- 526156 words of font info for 141 fonts, out of 8000000 for 9000
+ 29590 strings out of 478287
+ 582947 string characters out of 5849290
+ 855836 words of memory out of 5000000
+ 47120 multiletter control sequences out of 15000+600000
+ 550156 words of font info for 204 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,6n,96p,410b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,13n,96p,410b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
-w/times/utmr8a.pfb>
-Output written on asnmt4.pdf (1 page, 28270 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtx
+sc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri
+8a.pfb>
+Output written on asnmt4.pdf (2 pages, 104289 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 115 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
