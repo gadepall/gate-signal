@@ -1,0 +1,60 @@
+\iffalse
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{txfonts}
+\usepackage{tkz-euclide}
+\usepackage{listings}
+\usepackage{gvv}
+\usepackage[latin1]{inputenc}
+\usepackage{array}
+\usepackage{pgf}
+\usepackage{lmodern}
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+
+\title{GATE 2023[IN]-36}
+\author{EE23BTECH11066 - Yakkala Amarnath Karthik}
+\maketitle
+\bibliographystyle{IEEEtran}
+\textbf{Question:}\\ \\
+The impulse response of an LTI system is $h\brak{t}$= $\delta\brak{t}$+0.5$ \delta\brak{t-4}$, where $\delta\brak{t}$ is continuous-time unit impulse signal.if the input signal $x(t)=\cos\brak{\frac{7\pi t}{4}}$,the output is\hfill(GATE IN 2023)\\ \\
+
+\textbf{Solution:}\\
+\fi
+    \input{2023/IN/36/tables/input}\\
+
+ from Table \ref{tab:gate2023in36}
+\begin{align}
+    y\brak{t} &=x\brak{t} * h\brak{t}\\
+            &=x\brak{t} * \brak{\delta\brak{t}+0.5 \delta\brak{t-4}}\\
+            &=x\brak{t}+0.5x\brak{t-4}\\
+            &=\cos\brak{\frac{7\pi t}{4}}+0.5\cos\brak{\frac{7\pi \brak{t-4}}{4}}\\
+            &=\cos\brak{\frac{7\pi t}{4}}+0.5\cos\brak{\frac{7\pi t}{4}-7\pi}\\
+            &=\frac{1}{2}\cos\brak{\frac{7\pi t}{4}}\\
+            &=\frac{1}{2}x\brak{t}
+\end{align}
+
+\begin{align}
+    Y\brak{f} &= X\brak{f}H\brak{f}\\
+   &=\frac{1}{2}\sbrak{\delta \brak{f-\frac{7}{8}}+\delta \brak{f+\frac{7}{8}}}\sbrak{1+0.5e^{-j8\pi f}}
+         \end{align} \\ \\
+ \vspace{7.2cm}
+\begin{align}
+  \hspace{1.2cm}Y\brak{f} &=\frac{1}{2}\brak{1+0.5e^{-j8\pi f}}\delta \brak{f-\frac{7}{8}}+\nonumber\\
+   &\frac{1}{2}\brak{1+0.5e^{-j8\pi f}}\delta \brak{f+\frac{7}{8}}\\
+   &=\frac{1}{2}\brak{1+0.5\brak{-1}}\delta \brak{f-\frac{7}{8}}+\nonumber\\
+   &\frac{1}{2}\brak{1+0.5\brak{-1}}\delta \brak{f+\frac{7}{8}}\\
+  &=\frac{1}{4}\sbrak{\delta \brak{f-\frac{7}{8}}+\delta \brak{f+\frac{7}{8}}}\\
+   &=\frac{1}{2}X\brak{f}
+\end{align}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.45\textwidth]{2023/IN/36/figs/pythongate.png}
+    \caption{Graph showing x(t) and y(t)}
+\end{figure}
+
+
+
+

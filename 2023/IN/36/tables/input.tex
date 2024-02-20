@@ -1,0 +1,25 @@
+\begin{table}[ht]
+  \begin{tabular}{|c|c|c|}
+    \hline
+    \textbf{Variable} & \textbf{Description} & \textbf{value}\\
+    \hline
+    $\delta\brak{t}$ & Dirac delta function &$\infty$ if t=0;  0 in other cases \\& &$\int_{-\infty} ^ {\infty} \delta\brak{t}=1$\\
+   \hline
+    $h\brak{t}$ & impulse response & $\delta\brak{t}$+0.5$ \delta\brak{t-4}$ \\
+    \hline
+    $x\brak{t}$ & input signal  & $x(t)=cos\brak{\frac{7\pi t}{4}}$ \\
+    \hline
+$y\brak{t}$ & output signal & x\brak{t}$ *$ h\brak{t} \\
+    \hline
+     $\mathcal{F}\brak{\cos{a t}}$ & Fourier transform of $\cos{a t}$ & $0.5\sbrak{\delta \brak{f-\frac{a}{2\pi}}+\delta \brak{f+\frac{a}{2\pi}}}$\\
+    \hline
+    $X\brak{f}$ & Fourier transform of $x\brak{t}$ & $0.5\sbrak{\delta \brak{f-\frac{7}{8}}+\delta \brak{f+\frac{7}{8}}}$\\
+    \hline
+        $H\brak{f}$ & Fourier transform of $h\brak{t}$ & 1+0.5$e^{-j8\pi f}$\\
+    \hline
+     $Y\brak{f}$ & Fourier transform of $y\brak{t}$ & $X\brak{f}H\brak{f}$\\
+    \hline
+    \end{tabular}
+  \caption{A Table with input parameters}
+  \label{tab:gate2023in36}
+\end{table}
