@@ -1,0 +1,23 @@
+\begin{tikzpicture}
+\begin{axis}[
+    axis lines=middle,
+    xlabel=$f$,
+    ylabel=$X(f)$,
+    ymax=1,
+    ymin=0,
+    xmin=-240,
+    xmax=240,
+    xtick={ -120, -60, 60, 120},
+    ytick={0,1},
+    yticklabels={0,1},
+    ticklabel style={font=\tiny},
+    enlargelimits={abs=0.2},
+    clip=false
+]
+% One-sided arrows
+\draw[->, >=latex, blue, thick] (axis cs: -120, 0) -- (axis cs: -120, 1);
+\draw[->, >=latex, blue, thick] (axis cs: -60, 0) -- (axis cs: -60, 1);
+\draw[->, >=latex, blue, thick] (axis cs: 60, 0) -- (axis cs: 60, 1);
+\draw[->, >=latex, blue, thick] (axis cs: 120, 0) -- (axis cs: 120, 1);
+\end{axis}
+\end{tikzpicture}
