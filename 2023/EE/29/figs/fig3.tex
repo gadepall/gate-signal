@@ -1,0 +1,14 @@
+\begin{circuitikz}[american]
+   \draw (0,0) to [current source,
+   l=$\frac{10}{s}$] (0,4);
+    \draw (0,4)-- (1,4) to(1,5)to[R, l=$2\ohm$, i=$I_L$] (4,5);
+    \draw  (4,5) to[L, l=$10mH$,]  (6,5);
+    \draw  (8,5) to[sV, V=$LI_L(0^-)$] (6,5);
+    \draw (1,4)to (1,2)to[R, l=$2\ohm$, i=$\brak{\frac{10}{s}-I_L}$] (4,2);
+    \draw (4,2) to [C, l=$100\mu F$,] (6,2);
+    \draw  (6,2) to[sV, V=$\frac{V_C(0^-)}{s}$] (8,2);
+    \draw (8,5) --(8,2);
+    \draw (8,4) -- (9,4);
+    \draw (9,4)-- (9,0);
+    \draw(9,0)-- (0,0);
+\end{circuitikz}

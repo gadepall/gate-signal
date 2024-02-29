@@ -1,0 +1,17 @@
+\begin{circuitikz}
+    \draw (0,0) to [R, R=$3\ohm$] (0,3);
+   \draw (0,3)-- (0,4);
+   \draw (0,4) -- (3,4);
+   \draw (2.5,0) to [american current source, l=$10\text{A,}\text{DC}$] (2.5,4);
+    \draw (3,4) to (3,5);
+    \draw (3,5) to[R, l=$2\ohm$,i=$I_L(0^-)$] (8,5);
+    \draw (3,4)to (3,3)to (4,3) to[R, l=$2\ohm$] (5,3);
+    \draw (5,3)to (6,3) ;
+    % Draw open circuit
+    \draw (7,3) to [open, v=$+\quad V_C(0^-)\quad-$] (6,3);
+     \draw (7,3) to(8,3);
+    \draw (8,5) --(8,3);
+    \draw (8,4) -- (9,4);
+    \draw (9,4)-- (9,0);
+    \draw(9,0)--(0,0);
+\end{circuitikz}\\
