@@ -1,0 +1,15 @@
+\documentclass{standalone}
+\usepackage{circuitikz}
+\usepackage{siunitx}
+
+\begin{document}
+\begin{circuitikz}
+    \draw (0,3) to[R, l=\SI{3}{\kohm}, i=$I$] (4,3);
+    \draw (4,3) to[R, l=\SI{10}{\kohm}, i=$I_2$] (8,3);
+    \draw (0,3) to[battery1, v=$\frac{10}{s}\si{\volt}$, american] (0,0);
+    \draw (4,3) to[R, l=\SI{7}{\kohm}, i=$I_1$] (4,0);
+    \draw (8,3) to[C, l=$\frac{1}{Cs}$, v=$V_c(s)$, american] (8,0);
+    \draw (0,0) to (8,0);
+\end{circuitikz}
+\end{document}
+

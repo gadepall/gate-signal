@@ -4,15 +4,22 @@
 \solution
 \input{2023/IN/29/assign4.tex}
 \newpage
-\item In the circuit shown below, it is observed that the amplitude of voltage across the resistor is the same as the amplitude of the sorce voltage. What is the angular frequency $\omega_0$(in rad$/s$)?\\
 
+\item In the circuit shown below, it is observed that the amplitude of voltage across the resistor is the same as the amplitude of the sorce voltage. What is the angular frequency $\omega_0$(in rad$/s$)?\\
 \begin{circuitikz}[american]
     \draw (0,0) to[R, l=$10K\Omega$] (2,0) to[L, l=$10mH$] (4,0) to[C, l=$1\mu{F}$] (6,0) -- (6,-1) 
     to[sV, l=$100\cos(\omega_0 t)$] (0,-1) -- (0,0)
     (0,-1) node[circ]{} node[left]{$+$}
     (6,-1) node[circ]{} node[right]{$-$};
-\end{circuitikz} \hfill(GATE BM 2023)
+\end{circuitikz}
+\begin{enumerate}
+    \item[(A)] $10^4$\\
+    \item[(B)] $10^3$\\
+    \item[(C)] $10^3\pi$\\
+    \item[(D)] $10^4\pi$  
+\end{enumerate} \hfill(GATE BM 2023)\\
 \solution
+\input{2023/BM/42/Assignment_2023_BM_42.tex}
 \newpage
 
 \item For a regular sinusoidal wave propagating in deep water having wave height of 3.5 m and wave period of 9 s, the wave steepness is \underline{\hspace{1cm}} (round off to three decimal places).

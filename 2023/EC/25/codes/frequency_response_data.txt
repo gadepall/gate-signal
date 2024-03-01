@@ -1,0 +1,12 @@
+Transfer Function Numerator Coefficients:
+6.000000
+5.000000
+1.000000
+
+Transfer Function Denominator Coefficients:
+0.000000
+6.000000
+5.000000
+0.000000
+
+Phase Crossover Frequency: 0.408248 rad/s

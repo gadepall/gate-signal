@@ -1,0 +1,6 @@
+\begin{circuitikz}[american]
+    \draw (0,0) to[R, l=$10K\Omega$] (2,0) to[L, l=$10^{-2}j\omega_0$] (4,0) to[C, l=$\frac{10^6}{j\omega_0}$] (6,0) -- (6,-1) 
+    to[sV, l=$100\cos\brak{\omega_0 t}$] (0,-1) -- (0,0)
+    (0,-1) node[circ]{} node[left]{$+$}
+    (6,-1) node[circ]{} node[right]{$-$};
+\end{circuitikz}

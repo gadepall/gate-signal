@@ -1,0 +1,162 @@
+\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                         
+\usepackage{circuitikz}
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow} 
+
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+
+
+\begin{document}
+\parindent 0px
+\bibliographystyle{IEEEtran}
+
+\title{GATE 2023 - EC 50}
+\author{EE23BTECH11220 - R.V.S.S Varun$^{}$% <-this % stops a space
+}
+\maketitle
+\newpage
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\section*{Question}
+
+Let $x_1\brak{t}$ and $x_2\brak{t}$ be two band-limited signals having bandwidth B = $4\pi\times10^3$
+rad/s each. In the figure below, the Nyquist sampling frequency, in
+rad/s, required to sample y\brak{t}, is
+  \\
+  \vspace{25pt}
+\begin{figure}[ht]
+    \centering
+	\begin{circuitikz}
+    \input{2023/EC/50/figs/ckt1.tex}
+	\end{circuitikz}
+    \label{fig:EC50.1}
+\end{figure} 
+
+    \brak{a} $20\pi\times10^3$\\
+    \brak{b} $40\pi\times10^3$\\
+    \brak{c} $8\pi\times10^3$\\
+    \brak{d} $32\pi\times10^3$   \hfill(GATE EC 50)\\
+
+
+
+
+\fi
+
+\begin{table}[ht]
+    \centering
+    \input{2023/EC/50/tables/table.tex} 
+    \caption{Table of parameters}
+    \label{tab:EC50.1}
+\end{table}
+
+
+\begin{figure}[ht]
+    \centering
+	
+    \input{2023/EC/50/figs/X_1.tex}
+	
+    \label{fig:EC50.2}
+\end{figure} 
+
+
+\begin{figure}[ht]
+    \centering
+	
+    \input{2023/EC/50/figs/X_2.tex}
+	
+    \label{fig:EC50.3}
+\end{figure} 
+
+ From question figure ,
+\begin{align}
+y\brak{t}=x_1\brak{t}\times cos\brak{4\pi\times10^3t}+x_2\brak{t}\times cos\brak{12\pi\times10^3t}
+\end{align}
+\begin{align}
+	y\brak{t}=y_1\brak{t}+y_2\brak{t}\\
+	Y\brak{f}=Y_1\brak{f}+Y_2\brak{f}\label{EC50.1}
+\end{align}
+\begin{align}
+	Y_1\brak{f}&=X_1\brak{f}*\frac{1}{2}[\delta\brak{f-f_1}+\delta\brak{f+f_1}]\\
+	      &=\frac{1}{2}[X_1\brak{f-f_1}+X_1\brak{f+f_1}]
+\end{align}
+\begin{figure}[ht]
+    \centering
+	
+    \input{2023/EC/50/figs/Y_1.tex}
+	
+    \label{fig:EC50.4}
+\end{figure} 
+
+\begin{align}
+	Y_2\brak{f}&=X_2\brak{f}*\frac{1}{2}[\delta\brak{f-f_2}+\delta\brak{f+f_2}]\\ 
+	&=\frac{1}{2}[X_2\brak{f-f_2}+X_2\brak{f+f_2}]
+\end{align}
+\clearpage
+
+\begin{figure}[ht]
+    \centering
+	
+    \input{2023/EC/50/figs/Y_2.tex}
+	
+    \label{fig:EC50.5}
+\end{figure} 
+
+From \eqref{EC50.1}:
+\begin{figure}[ht]
+    \centering
+	
+    \input{2023/EC/50/figs/Y.tex}
+	
+    \label{fig:EC50.6}
+\end{figure} 
+
+From table,
+\begin{align}
+\omega_{m}=16\pi\times10^3 rad/sec.
+\end{align}
+\begin{align}
+\omega_{s}=2\omega_{m}=32\pi\times10^3 rad/sec.
+\end{align}
+
