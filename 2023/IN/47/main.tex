@@ -80,19 +80,19 @@ The R-L circuit with $R=10 k\Omega$ and $L=1 mH$ is excited by a step current $I
 \end{align}
 From KVL, we have:
 \begin{align}
-    (\frac{I_0}{s} -I\brak{s})R - L(sI\brak{s} - I_L\brak{0^-}) &=0
+    (\frac{I_0}{s} -I_L\brak{s})R - L(sI_L\brak{s} - I_L\brak{0^-}) &=0
 \end{align}
 After Simplyfying we have:
 \begin{align}
-    I\brak{s} &= \frac{ I_0R +LsI\brak{0^-}}{s(R+Ls)}\\
-    I\brak{s} &= \frac{I_0R}{L}\frac{1}{s(s+\frac{R}{L})} + \frac{I_0}{5}\frac{1}{\frac{R}{L}+s}
+    I_L\brak{s} &= \frac{ I_0R +LsI_L\brak{0^-}}{s(R+Ls)}\\
+    I_L\brak{s} &= \frac{I_0R}{L}\frac{1}{s(s+\frac{R}{L})} + \frac{I_0}{5}\frac{1}{\frac{R}{L}+s}
 \end{align}
 From \tabref{laplace-transform-pairs-table}, we have:
 \begin{align}
-    I\brak{t} & = \frac{I_0R}{L} \sbrak{\frac{1}{\frac{R}{L}}(1-e^{-\frac{R}{L}t})} + \frac{I_0}{5}e^{-\frac{R}{L}}\\
-    I\brak{t} &= I_0 -\frac{4}{5}I_0e^{-\frac{R}{L}t}\\
-    I\brak{t} &= I_0 -\frac{4}{5}I_0e^{-10^{7}t}\\
-    \lim_{t \to \infty} I\brak{t} &= I_0
+    I_L\brak{t} & = \frac{I_0R}{L} \sbrak{\frac{1}{\frac{R}{L}}(1-e^{-\frac{R}{L}t})} + \frac{I_0}{5}e^{-\frac{R}{L}}\\
+    I_L\brak{t} &= I_0 -\frac{4}{5}I_0e^{-\frac{R}{L}t}\\
+    I_L\brak{t} &= I_0 -\frac{4}{5}I_0e^{-10^{7}t}\\
+    \lim_{t \to \infty} I_L\brak{t} &= I_0
 \end{align}
 Now time when current in inductor is $99\%$ of its final value is given by:
 \begin{align}
