@@ -1,0 +1,657 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.7)  4 MAR 2024 21:19
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Gate.tex
+(./Gate.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 I
+      nitial condition $L_{1}$=1 and $L_{2}$=3
+? 
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 68.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 68.
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 3 in font nullfont!
+
+! LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.69 \begin{align}
+                  
+? 
+Missing character: There is no L in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.70  L_
+        {n}=L_{n-1}+L_{n-2}
+? 
+
+! LaTeX Error: \begin{document} ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.71 \end{align}
+                
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.71 \end{align}
+                
+? 
+Missing character: There is no A in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+
+! LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 \begin{align}
+                  
+? 
+Missing character: There is no x in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no = in font nullfont!
+! Misplaced alignment tab character &.
+l.74  x(n)=&
+            [x(n-1)+x(n-2)-3]u(n-2)+u(n)+2u(n-1)\\
+? 
+Missing character: There is no [ in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no + in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no + in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no + in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no X in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no = in font nullfont!
+! Misplaced alignment tab character &.
+l.75  X(z)=&
+            z^{-1}(X(z)-1)+z^{-2}X(z)-3\frac{z^{-2}}{1-z^{-1}}+\frac{1}{1-z^...
+
+? 
+Missing character: There is no z in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.75  X(z)=&z^
+              {-1}(X(z)-1)+z^{-2}X(z)-3\frac{z^{-2}}{1-z^{-1}}+\frac{1}{1-z^...
+
+? 
+! Misplaced alignment tab character &.
+l.76  X(z)&
+           (1-z^{-1}-z^{-2})(1-z^{-1})=1+z^{-1}-2z^{-2}\\
+? 
+! Misplaced alignment tab character &.
+l.77  X(z)&
+           =\frac{1+z^{-1}-2z^{-2}}{(1-z^{-1}-z^{-2})(1-z^{-1})}\\
+? 
+! Misplaced alignment tab character &.
+l.78  X(z)&
+           =\frac{A}{1-z^{-1}}+\frac{B}{1-\alpha z^{-1}}+\frac{C}{1-\beta z^...
+
+? 
+
+! LaTeX Error: \begin{document} ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79  \end{align}
+                 
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.79  \end{align}
+                 
+? 
+Missing character: There is no W in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no = in font nullfont!
+! Undefined control sequence.
+<recently read> \dfrac 
+                       
+l.80  Where, $\alpha$ = $\dfrac
+                               {1 +\sqrt{5}}{2}$ and $\beta$ = $\dfrac{1 -\s...
+
+? 
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no = in font nullfont!
+! Undefined control sequence.
+<recently read> \dfrac 
+                       
+l.80 ...rac{1 +\sqrt{5}}{2}$ and $\beta$ = $\dfrac
+                                                  {1 -\sqrt{5}}{2}$ \\
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 68--81
+[]
+ []
+
+
+Overfull \hbox (11.2917pt too wide) in paragraph at lines 68--81
+\OML/cmm/m/it/10 L[]$
+ []
+
+
+Overfull \hbox (11.2917pt too wide) in paragraph at lines 68--81
+\OML/cmm/m/it/10 L[]$
+ []
+
+
+Overfull \hbox (15.99884pt too wide) in paragraph at lines 68--81
+[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (30.26285pt too wide) in paragraph at lines 68--81
+\OML/cmm/m/it/10 L[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (22.48505pt too wide) in paragraph at lines 68--81
+\OML/cmm/m/it/10 L[]$
+ []
+
+
+Overfull \hbox (32.92946pt too wide) in paragraph at lines 68--81
+\OML/cmm/m/it/10 L[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (19.49542pt too wide) in paragraph at lines 68--81
+\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )$ 
+ []
+
+
+Overfull \hbox (44.34038pt too wide) in paragraph at lines 68--81
+[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cm
+r/m/n/10 ) \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (16.66672pt too wide) in paragraph at lines 68--81
+\OT1/cmr/m/n/10 1) +
+ []
+
+
+Overfull \hbox (45.54178pt too wide) in paragraph at lines 68--81
+\OML/cmm/m/it/10 z[]X\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 ) \OMS/
+cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (38.8412pt too wide) in paragraph at lines 68--81
+\OT1/cmr/m/n/10 3[] +
+ []
+
+
+Overfull \hbox (33.84119pt too wide) in paragraph at lines 68--81
+[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (31.0634pt too wide) in paragraph at lines 68--81
+\OT1/cmr/m/n/10 2[][] 
+ []
+
+
+Overfull \hbox (38.60425pt too wide) in paragraph at lines 68--81
+\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 )(1 \OMS/c
+msy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (23.60425pt too wide) in paragraph at lines 68--81
+\OML/cmm/m/it/10 z[] \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (36.38206pt too wide) in paragraph at lines 68--81
+\OML/cmm/m/it/10 z[]\OT1/cmr/m/n/10 )(1 \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (30.27086pt too wide) in paragraph at lines 68--81
+\OML/cmm/m/it/10 z[]\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 68--81
+\OT1/cmr/m/n/10 1 +
+ []
+
+
+Overfull \hbox (23.60425pt too wide) in paragraph at lines 68--81
+\OML/cmm/m/it/10 z[] \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (20.82646pt too wide) in paragraph at lines 68--81
+\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 z[][] 
+ []
+
+
+Overfull \hbox (32.49304pt too wide) in paragraph at lines 68--81
+\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (81.9041pt too wide) in paragraph at lines 68--81
+[][] 
+ []
+
+
+Overfull \hbox (32.49304pt too wide) in paragraph at lines 68--81
+\OML/cmm/m/it/10 X\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z\OT1/cmr/m/n/10 ) =
+ []
+
+
+Overfull \hbox (33.84119pt too wide) in paragraph at lines 68--81
+[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (39.03995pt too wide) in paragraph at lines 68--81
+[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (30.95752pt too wide) in paragraph at lines 68--81
+[]$
+ []
+
+
+Overfull \hbox (6.43404pt too wide) in paragraph at lines 68--81
+\OML/cmm/m/it/10 $
+ []
+
+
+Overfull \hbox (35.55554pt too wide) in paragraph at lines 68--81
+[]\OT1/cmr/m/n/10 2$
+ []
+
+
+Overfull \hbox (6.18402pt too wide) in paragraph at lines 68--81
+\OML/cmm/m/it/10 ^^L$
+ []
+
+
+Overfull \hbox (35.55554pt too wide) in paragraph at lines 68--81
+[]\OT1/cmr/m/n/10 2$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.83  u
+       sing partial fractions,
+? 
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no , in font nullfont!
+
+! LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.84  \begin{align}
+                   
+? 
+Missing character: There is no X in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no = in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.85 ...\alpha+2}{(\alpha-\beta)(1-\alpha z^{-1})}
+                                                  +\frac{\beta+2}{(\beta-\al...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.85 ...\alpha+2}{(\alpha-\beta)(1-\alpha z^{-1})}
+                                                  +\frac{\beta+2}{(\beta-\al...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.85 ...\alpha+2}{(\alpha-\beta)(1-\alpha z^{-1})}
+                                                  +\frac{\beta+2}{(\beta-\al...
+
+? 
+! Extra }, or forgotten $.
+\frac  #1#2->{\begingroup #1\endgroup \over #2}
+                                               
+l.85 ...\alpha+2}{(\alpha-\beta)(1-\alpha z^{-1})}
+                                                  +\frac{\beta+2}{(\beta-\al...
+
+? 
+
+! LaTeX Error: \begin{document} ended by \end{align}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86  \end{align}
+                 
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.86  \end{align}
+                 
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.86  \end{align}
+                 
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 83--87
+[]
+ []
+
+
+Overfull \hbox (14.21184pt too wide) in paragraph at lines 83--87
+\OML/cmm/m/it/10  \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (124.64864pt too wide) in paragraph at lines 83--87
+\OT1/cmr/m/n/10 2$$[]$ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 	$
+       a^n u(n)$
+? 
+! Undefined control sequence.
+<recently read> \xleftarrow 
+                            
+l.89 	$\xleftarrow
+                  []{\hspace{0.4cm}{\mathcal{Z}}\hspace{0.1cm}}\xrightarrow[...
+
+? 
+! Undefined control sequence.
+l.89 ...m}{\mathcal{Z}}\hspace{0.1cm}}\xrightarrow
+                                                  []{}$
+? 
+! Undefined control sequence.
+<recently read> \dfrac 
+                       
+l.90 	$\dfrac
+             {1}{1 - a z^{-1}}$ \hspace{0.2cm} $\lvert \hspace{0.1cm} z \hsp...
+
+? 
+! Undefined control sequence.
+<recently read> \lvert 
+                       
+l.90 ...c{1}{1 - a z^{-1}}$ \hspace{0.2cm} $\lvert
+                                                   \hspace{0.1cm} z \hspace{...
+
+? 
+! Undefined control sequence.
+l.90 ...vert \hspace{0.1cm} z \hspace{0.1cm}\rvert
+                                                   \hspace{0.1cm} \textgreat...
+
+? 
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 90.
+
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 9
+0.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 90.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 90.
+
+! Undefined control sequence.
+l.90 ...{0.1cm} \textgreater \hspace{0.1cm} \lvert
+                                                   \hspace{0.1cm} a \hspace{...
+
+? 
+! Undefined control sequence.
+l.90 ...ert \hspace{0.1cm} a \hspace{0.1cm} \rvert
+                                                  $
+? 
+
+Overfull \hbox (50.23395pt too wide) in paragraph at lines 88--91
+[]$\OML/cmm/m/it/10 a[]u\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n\OT1/cmr/m/n/10 )$
+ []
+
+
+Overfull \hbox (33.37918pt too wide) in paragraph at lines 88--91
+\OT1/cmr/m/n/10 [][][][]$
+ []
+
+
+Overfull \hbox (43.3345pt too wide) in paragraph at lines 88--91
+\OT1/cmr/m/n/10 1[]$
+ []
+
+
+Overfull \hbox (32.38121pt too wide) in paragraph at lines 88--91
+\OML/cmm/m/it/10 z  []  a $ 
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.94 	S
+       ubstituting this result,
+? 
+Missing character: There is no S in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no , in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 94--95
+[]
+ []
+
+
+! LaTeX Error: Environment align undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.98 	\begin{align}
+                   
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 		x
+        (n) &= \dfrac{\alpha+2}{(\alpha - \beta)} (\alpha^n u(n)) - \dfrac{\...
+
+? 
+Missing character: There is no x in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Misplaced alignment tab character &.
+l.99 		x(n) &
+             = \dfrac{\alpha+2}{(\alpha - \beta)} (\alpha^n u(n)) - \dfrac{\...
+
+? 
+Missing character: There is no = in font nullfont!
+! Undefined control sequence.
+l.99 		x(n) &= \dfrac
+                     {\alpha+2}{(\alpha - \beta)} (\alpha^n u(n)) - \dfrac{\...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.99 		x(n) &= \dfrac{\alpha
+                            +2}{(\alpha - \beta)} (\alpha^n u(n)) - \dfrac{\...
+
+? 
+! Extra }, or forgotten $.
+l.99 		x(n) &= \dfrac{\alpha+2}
+                               {(\alpha - \beta)} (\alpha^n u(n)) - \dfrac{\...
+
+? 
+! Undefined control sequence.
+l.99 ...(\alpha - \beta)} (\alpha^n u(n)) - \dfrac
+                                                  {\beta+2}{(\alpha - \beta)...
+
+? 
+! Misplaced alignment tab character &.
+l.100 	    x(n) &
+                 = \dfrac{(5+\sqrt{5})(1 + \sqrt{5})^{n}
