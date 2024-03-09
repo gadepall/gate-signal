@@ -1,0 +1,11 @@
+x=0.00	Result=1.0000
+x=0.10	Result=1.1155
+x=0.20	Result=1.2642
+x=0.30	Result=1.4496
+x=0.40	Result=1.6755
+x=0.50	Result=1.9462
+x=0.60	Result=2.2664
+x=0.70	Result=2.6413
+x=0.80	Result=3.0766
+x=0.90	Result=3.5788
+x=1.00	Result=4.1548
