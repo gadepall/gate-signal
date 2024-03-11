@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.13)  11 MAR 2024 15:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.13)  11 MAR 2024 16:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -407,21 +407,11 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
-) (./gvv.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/circuitikz/circuitikz.sty
+Package: circuitikz 2021/12/06{} The CircuiTikz circuit drawing package version
+ 1.4.5
 
-! LaTeX cmd Error: Invalid argument type 'g' in command '\system' (requires
-(cmd)              xparse).
-
-For immediate help type H <return>.
- ...                                              
-                                                  
-l.103 }
-       
-? r
-OK, entering \nonstopmode...
-) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty
-2022/01/19 4.03 tkz-euclide.sty
-Package: tkz-euclide  2022/01/19 4.03 for pure Euclidean Geometry 
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
@@ -692,6 +682,83 @@ zlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
+code.tex
+File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowinset=\dimen294
+\pgfarrowlength=\dimen295
+\pgfarrowwidth=\dimen296
+\pgfarrowlinewidth=\dimen297
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybending.code.tex
+File: tikzlibrarybending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulebending.code.te
+x
+File: pgfmodulebending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransf
+ormations.code.tex
+File: pgfmodulenonlineartransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgftransformnonlinearflatness=\dimen298
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.
+code.tex
+File: pgflibrarycurvilinear.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@curvilinear@time@a=\dimen299
+\pgf@curvilinear@length@a=\dimen300
+\pgf@curvilinear@length@b=\dimen301
+\pgf@curvilinear@length@c=\dimen302
+\pgf@curvilinear@length@d=\dimen303
+)
+\pgf@arrows@the@rigidity=\dimen304
+))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfpu.code.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)) (/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
+\pgf@circ@count@a=\count317
+\pgf@circ@count@b=\count318
+\pgf@circ@count@c=\count319
+\pgf@circ@res@up=\dimen305
+\pgf@circ@res@down=\dimen306
+\pgf@circ@res@zero=\dimen307
+\pgf@circ@res@left=\dimen308
+\pgf@circ@res@right=\dimen309
+\pgf@circ@res@other=\dimen310
+\pgf@circ@res@step=\dimen311
+\pgf@circ@res@temp=\dimen312
+\pgf@circ@Rlen=\dimen313
+\pgf@circ@scaled@Rlen=\dimen314
+\pgfstartlinewidth=\dimen315
+)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex
+\ctikz@scratchbox=\box69
+)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
+\pgf@circ@res@count=\count320
+)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
+\pgfcirc@labelshift=\dimen316
+)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty
+2022/01/19 4.03 tkz-euclide.sty
+Package: tkz-euclide  2022/01/19 4.03 for pure Euclidean Geometry 
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryangles.code.tex
 File: tikzlibraryangles.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
@@ -702,34 +769,22 @@ File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
 tex
 File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\arrowsize=\dimen294
+\arrowsize=\dimen317
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
-code.tex
-File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen295
-\pgfarrowlength=\dimen296
-\pgfarrowwidth=\dimen297
-\pgfarrowlinewidth=\dimen298
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
 e.tex
-\pgfdecoratedcompleteddistance=\dimen299
-\pgfdecoratedremainingdistance=\dimen300
-\pgfdecoratedinputsegmentcompleteddistance=\dimen301
-\pgfdecoratedinputsegmentremainingdistance=\dimen302
-\pgf@decorate@distancetomove=\dimen303
-\pgf@decorate@repeatstate=\count317
-\pgfdecorationsegmentamplitude=\dimen304
-\pgfdecorationsegmentlength=\dimen305
+\pgfdecoratedcompleteddistance=\dimen318
+\pgfdecoratedremainingdistance=\dimen319
+\pgfdecoratedinputsegmentcompleteddistance=\dimen320
+\pgfdecoratedinputsegmentremainingdistance=\dimen321
+\pgf@decorate@distancetomove=\dimen322
+\pgf@decorate@repeatstate=\count321
+\pgfdecorationsegmentamplitude=\dimen323
+\pgfdecorationsegmentlength=\dimen324
 )
-\tikz@lib@dec@box=\box69
+\tikz@lib@dec@box=\box70
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.markings.code.tex
@@ -747,9 +802,9 @@ decorations.shapes.code.tex))
 zlibrarydecorations.text.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
 decorations.text.code.tex
-\pgf@lib@dec@text@box=\box70
+\pgf@lib@dec@text@box=\box71
 )
-\tikz@lib@dec@te@box=\box71
+\tikz@lib@dec@te@box=\box72
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.pathmorphing.code.tex
@@ -759,9 +814,7 @@ decorations.pathmorphing.code.tex))
 zlibraryintersections.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersection
 s.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
-)
-\pgf@intersect@solutions=\count318
+\pgf@intersect@solutions=\count322
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryplotmarks.code.tex
@@ -789,23 +842,23 @@ Package: expl3 2022-01-21 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count319
-\l__pdf_internal_box=\box72
+\l__color_backend_stack_int=\count323
+\l__pdf_internal_box=\box73
 ))
 Package: xfp 2022-01-12 L3 Floating point unit
 )
-\tkzRadius=\dimen306
-\tkzLength=\dimen307
-\tkz@radi=\dimen308
-\tkz@ax=\dimen309
-\tkz@ay=\dimen310
-\tkz@bx=\dimen311
-\tkz@by=\dimen312
-\tkz@cx=\dimen313
-\tkz@cy=\dimen314
-\tkz@dx=\dimen315
-\tkz@dy=\dimen316
-\tkz@cntmk=\count320
+\tkzRadius=\dimen325
+\tkzLength=\dimen326
+\tkz@radi=\dimen327
+\tkz@ax=\dimen328
+\tkz@ay=\dimen329
+\tkz@bx=\dimen330
+\tkz@by=\dimen331
+\tkz@cx=\dimen332
+\tkz@cy=\dimen333
+\tkz@dx=\dimen334
+\tkz@dy=\dimen335
+\tkz@cntmk=\count324
 
 Local configuration file tkz-euclide.cfg found and used
 (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.cfg
@@ -849,8 +902,8 @@ Local configuration file tkz-euclide.cfg found and used
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-draw-angles.tex
 2022/01/19 4.03 tkz-tool-eu-angles.tex
-\tkz@arcsize=\dimen317
-\tkz@fillsize=\dimen318
+\tkz@arcsize=\dimen336
+\tkz@fillsize=\dimen337
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-draw-circles.te
 x
@@ -890,166 +943,108 @@ tex
 2022/01/19 4.03 tkz-obj-eu-show.tex
 ) (/usr/share/texlive/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.tex
 2022/01/19 4.03 tkz-obj-eu-triangles.tex
-)) (/usr/share/texlive/texmf-dist/tex/latex/circuitikz/circuitikz.sty
-Package: circuitikz 2021/12/06{} The CircuiTikz circuit drawing package version
- 1.4.5
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarybending.code.tex
-File: tikzlibrarybending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulebending.code.te
-x
-File: pgfmodulebending.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulenonlineartransf
-ormations.code.tex
-File: pgfmodulenonlineartransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgftransformnonlinearflatness=\dimen319
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibrarycurvilinear.
-code.tex
-File: pgflibrarycurvilinear.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@curvilinear@time@a=\dimen320
-\pgf@curvilinear@length@a=\dimen321
-\pgf@curvilinear@length@b=\dimen322
-\pgf@curvilinear@length@c=\dimen323
-\pgf@curvilinear@length@d=\dimen324
-)
-\pgf@arrows@the@rigidity=\dimen325
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibraryfpu.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirc.defines.tex
-\pgf@circ@count@a=\count321
-\pgf@circ@count@b=\count322
-\pgf@circ@count@c=\count323
-\pgf@circ@res@up=\dimen326
-\pgf@circ@res@down=\dimen327
-\pgf@circ@res@zero=\dimen328
-\pgf@circ@res@left=\dimen329
-\pgf@circ@res@right=\dimen330
-\pgf@circ@res@other=\dimen331
-\pgf@circ@res@step=\dimen332
-\pgf@circ@res@temp=\dimen333
-\pgf@circ@Rlen=\dimen334
-\pgf@circ@scaled@Rlen=\dimen335
-\pgfstartlinewidth=\dimen336
-)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircutils.tex
-\ctikz@scratchbox=\box73
-)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircpath.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircshapes.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmonopoles.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircbipoles.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirctripoles.tex
-\pgf@circ@res@count=\count324
-)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircquadpoles.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircmultipoles.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirclabel.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircvoltage.tex
-\pgfcirc@labelshift=\dimen337
-)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcirccurrent.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/circuitikz/pgfcircflow.tex))
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
-9.
-
-(/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
+\c@theorem=\count325
+\c@problem=\count326
+\c@proposition=\count327
+\c@lemma=\count328
+\c@example=\count329
+\c@rem=\count330
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 6
+5.
+ (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 ) (./gate.aux)
 \openout1 = `gate.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 19.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 65.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-19.
+65.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 65.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-19.
+65.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 65.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-19.
+65.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 19.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 1
-9.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 65.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 6
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    ... okay on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 65.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 19.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 65.
 
 -- Lines per column: 50 (exact).
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count325
+\scratchcounter=\count331
 \scratchdimen=\dimen338
 \scratchbox=\box74
-\nofMPsegments=\count326
-\nofMParguments=\count327
+\nofMPsegments=\count332
+\nofMParguments=\count333
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count328
+\MPscratchCnt=\count334
 \MPscratchDim=\dimen339
-\MPnumerator=\count329
-\makeMPintoPDFobject=\count330
+\MPnumerator=\count335
+\makeMPintoPDFobject=\count336
 \everyMPtoPDFconversion=\toks44
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1060,49 +1055,49 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count331
+\c@lstlisting=\count337
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 19.
-Package gensymb Info: Math companion symbols declared on input line 19.
-LaTeX Info: Redefining \degree on input line 19.
-LaTeX Info: Redefining \celsius on input line 19.
+(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 65.
+Package gensymb Info: Math companion symbols declared on input line 65.
+LaTeX Info: Redefining \degree on input line 65.
+LaTeX Info: Redefining \celsius on input line 65.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 19.
-LaTeX Info: Redefining \ohm on input line 19.
-Package gensymb Info: Using \textohm for \ohm on input line 19.
-Package gensymb Info: Using \textmu for \micro on input line 19.
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
-6.
+erthousand on input line 65.
+LaTeX Info: Redefining \ohm on input line 65.
+Package gensymb Info: Using \textohm for \ohm on input line 65.
+Package gensymb Info: Using \textmu for \micro on input line 65.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 7
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
-6.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 7
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
-6.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 7
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
-6.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 7
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
-6.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 7
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
@@ -1110,17 +1105,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 <figs/gate1.png, id=16, 462.528pt x 346.896pt>
 File: figs/gate1.png Graphic file (type png)
 <use figs/gate1.png>
-Package pdftex.def Info: figs/gate1.png  used on input line 71.
+Package pdftex.def Info: figs/gate1.png  used on input line 115.
 (pdftex.def)             Requested size: 516.0pt x 387.0176pt.
  [2] [3 <./figs/gate1.png>] (./gate.aux) ) 
 Here is how much of TeX's memory you used:
- 36372 strings out of 478287
- 898672 string characters out of 5849289
- 1382841 words of memory out of 5000000
- 54002 multiletter control sequences out of 15000+600000
+ 36375 strings out of 478287
+ 898381 string characters out of 5849289
+ 1382490 words of memory out of 5000000
+ 54011 multiletter control sequences out of 15000+600000
  540400 words of font info for 173 fonts, out of 8000000 for 9000
- 1144 hyphenation exceptions out of 8191
- 101i,13n,96p,408b,871s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 1141 hyphenation exceptions out of 8191
+ 99i,13n,94p,458b,869s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/
 enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts
 /rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><
@@ -1130,7 +1125,7 @@ f-dist/fonts/type1/public/txfonts/txsya.pfb></usr/share/texlive/texmf-dist/font
 s/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
 es/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
 
-Output written on gate.pdf (3 pages, 79635 bytes).
+Output written on gate.pdf (3 pages, 79630 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
